@@ -1,0 +1,90 @@
+.navbar_content{
+    display:flex;
+    justify-content: space-between;
+    border-bottom:5px solid #8338EC;
+    height:80px;
+    align-items: center;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+
+.links ul{
+    padding-top:40px;
+    display: flex;
+    justify-content: space-between;
+    width:500px;
+    
+}
+
+.name{
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.sec1_part1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.left_side{
+    margin:20px 0px;
+    background-image: url(../images/port1.JPG);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    height:667px;
+    width:500px;
+}
+
+.right_side{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:500px;
+}
+
+.title{
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.info{
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:20px;
+}
+
+.icons{
+    padding:0 100px;
+    color:#8338EC;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    color: #333;
+}
+
+.links a:hover{
+    transition: 1s;
+    background-color: #8338EC;
+    color:#fff;
+    cursor: pointer;
+    padding:5px;
+}
+
+.icons a{
+    color:#8338EC;
+
+}
+
+.icons a:hover{
+    color:#a473e7;
+}

@@ -1,0 +1,23 @@
+#events{
+    display: flex;
+    flex-wrap: wrap;
+    width:400px;
+    margin-left:100px;
+    box-shadow: 1px 1px 3px 2px #5F4B8BFF;
+
+
+
+}
+#events h2{
+    margin:20px 0 50px 200px;
+    color:white;
+    background-color:#ffb703;
+    padding:5px;
+}
+.event_content{
+    margin-left: 200px;;
+    height:300px;
+    width:100px;
+    display: flex;
+    justify-content: space-evenly;
+}

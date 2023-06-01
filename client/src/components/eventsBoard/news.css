@@ -1,0 +1,33 @@
+#news {
+    display: flex;
+    width: 1000px;
+    
+  }
+  
+  #news h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.2em;
+    margin: 40px 0px 90px 0px;
+  }
+  
+  #news h2 span {
+    background: #fff;
+    padding: 0 10px;
+  }
+  
+  .news_content {
+    margin-left: 20px;
+    height: 150px;
+    width: calc(40% - 40px); /* set the width of the card to half of the container minus margin */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    border:1px solid black;
+  }

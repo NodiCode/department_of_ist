@@ -1,0 +1,93 @@
+#logo {
+    background-color: #ffb703;
+    /* border: 1px solid red; */
+}
+
+.sec1_logo{
+    height: 30px;
+
+    justify-content: space-between;
+}
+
+.logotip {
+    width: 500px;
+    height: 60px;
+    /* border: 2px solid black; */
+}
+
+#header{
+    background-color: #792e2e;
+    display:flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+
+.header_content{
+    display: flex;
+    height:100px;
+}
+
+.left{
+    color:white;
+    font-weight: 638;
+    font-size: 40px;
+    width:60%;
+    display: flex;
+}
+
+.right{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    justify-content:space-between;
+
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    width: 40%;
+}
+
+
+.h_links {
+    display: flex;
+    color: white;
+    height: 100%;
+
+    /* border:1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .logotip {
+        width: 60%;
+        height: 1.5rem;
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .links {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logotip {
+        width: 50%;
+        height: 1rem;
+    }
+
+    .left {
+        font-size: 1rem;
+    }
+
+    .links {
+        padding-left: 0.5rem;
+    }
+}

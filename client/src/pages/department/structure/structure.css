@@ -1,0 +1,11 @@
+#sec2{
+    line-height:30px;
+    font-size:18px;
+    
+}
+.sec2_content{
+    height:400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

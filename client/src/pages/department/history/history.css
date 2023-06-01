@@ -1,0 +1,15 @@
+#sec1{
+    line-height:30px;
+    font-size:18px;
+    margin: auto 0;
+    height:1000px;
+
+
+}
+.sec1_content{
+    height:900px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}

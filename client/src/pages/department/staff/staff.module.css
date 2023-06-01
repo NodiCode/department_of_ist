@@ -1,0 +1,72 @@
+#sec1{
+    display: flex;
+    height:1400px;
+}
+
+.reddy{
+    color:#792e2e;
+    font-weight: 500;
+}
+
+.sec1_content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:20px;
+    gap: 10px;
+
+}
+
+.card{
+    display: flex;
+    width:100%;
+    height:200px;
+    justify-content: space-between;
+    transition: 1.1s all;
+    transform:translateX(0px)
+
+}
+
+
+.card:hover{
+    transform:translateX(10px);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    box-shadow: 1px 1px 1px 3px #5F4B8BFF;
+}
+
+.img1{
+    width:180px;
+    height:180px;
+    background-color:#2F93AA;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.info{
+    font-family:'Montserrat', sans-serif;
+    width:360px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name{
+    font-size: 20px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+
+
+
+}
+
+.ptl a:visited, .ptl a:active{
+    text-decoration: none;
+    color:black
+}
+
+
+
+

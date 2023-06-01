@@ -1,0 +1,18 @@
+#sec3{
+    line-height:30px;
+    font-size:18px;
+    margin: auto 0;
+    height:500px;
+
+
+}
+.sec3_content{
+    height:200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.list{
+    list-style: none;
+}

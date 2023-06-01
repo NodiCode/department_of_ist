@@ -1,0 +1,45 @@
+#slider{
+    margin-top:10px;
+    font-family:Source Sans Pro;
+}
+
+.slider_content{
+    position:absolute;
+    width:500px;
+    height:150px;
+    background:#ffb703;
+    left:-500px;
+    transition: 1s;
+
+
+}
+
+.active{
+    left:0;
+}
+
+.slider_content .text{
+    color:#fff;
+    padding:5px;
+    
+}
+
+.slider_content .toggle_btn {
+    position:absolute;
+    display: block;
+    left:500px;
+    height:150px;
+    border:1px solid red;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

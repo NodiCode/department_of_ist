@@ -1,0 +1,25 @@
+#footer {
+    background-color: #792e2e;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .footer_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .left {
+    display: flex;
+  }
+  .left a {
+    color: white;
+    margin-right: 20px;
+  }
+  .right {
+    display: flex;
+  }
+  .right span {
+    font-size: 18px;
+  }

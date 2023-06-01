@@ -1,0 +1,25 @@
+#nav{
+    position:relative;
+    height:80px;
+}
+
+.nav_content{
+    position: absolute;
+    float: inline-end;
+    border:1px solid red;
+    left:80%;
+    width:150px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    padding:10px;
+    box-shadow: 1px 1px 1px 1px #5F4B8BFF;
+}
+
+.links:hover{
+    background-color: #ffb703;
+    color:white;
+    padding:10px;
+
+}
