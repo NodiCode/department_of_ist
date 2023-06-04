@@ -11,7 +11,7 @@ function Header() {
             <div id="logo">
                 <div className="container">
                     {/* <div className="sec1_logo">
-                        <Link to="https://kumu.kg/"><img className="logotip" src="../images/logo_uni.svg" alt="" /></Link>
+                        <Link to="https://kumu.kg/"><img className="logotip" src="https://ibb.co/VTmRrGk" alt="" /></Link>
                     </div> */}
                 </div>
             </div>
@@ -25,21 +25,21 @@ function Header() {
                             <div className="h_links">
                                 <div className="links">
                                     <span>
-                                        <i className="fa-solid fa-location-dot"></i>
-                                        жайгашкан жери/жумуш убактысы
+                                        <Link to="/contacts"><i className="fa-solid fa-location-dot"></i></Link>
+                                        <p>жайгашкан жери/жумуш убактысы</p>
                                     </span>
                                 </div>
                                 <div className="links">
                                     <span>
                                         <i className="fa-solid fa-phone"></i>
-                                        +996556909890
+                                        <p>+996556909890</p>
                                     </span>
 
                                 </div>
                                 <div className="links">
                                     <span>
                                         <i className="fa-solid fa-envelope"></i>
-                                        contact@gmail.com
+                                        <p>contact@gmail.com</p>
                                     </span>
                                 </div>
                             </div>
