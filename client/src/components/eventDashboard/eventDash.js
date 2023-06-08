@@ -13,7 +13,7 @@ const EventsDash = (props) => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:5001/api/events'); // Replace with your backend API endpoint
+      const response = await axios.get('http://localhost:5001/api/events'); 
       setData(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -21,7 +21,7 @@ const EventsDash = (props) => {
   };
 
   return (
-    <div className={containerClassName}>
+    <div className={`${containerClassName} events-board-container`}>
       <h1>Алдыдагы окуялар</h1>
       <div className={cardsClassName}>
       {data.map((item) => (

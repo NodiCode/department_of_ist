@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../../App.css';
 import './header.css';
 import { Link } from "react-router-dom";
@@ -6,6 +6,11 @@ import { Link } from "react-router-dom";
 
 
 function Header() {
+    const [showMessage, setShowMessage] = useState(false);
+
+    const toggleMessage = () => {
+        setShowMessage(!showMessage);
+    };
     return (
         <div>
             <div id="logo">
@@ -25,21 +30,21 @@ function Header() {
                             <div className="h_links">
                                 <div className="links">
                                     <span>
-                                        <Link to="/contacts"><i className="fa-solid fa-location-dot"></i></Link>
-                                        <p>жайгашкан жери/жумуш убактысы</p>
+                                        <Link to="/contacts"><i className="fa-solid fa-location-dot" onMouseEnter={toggleMessage} onMouseLeave={toggleMessage}></i></Link>
+                                        <p className="message">жайгашкан жери/жумуш убактысы</p>
                                     </span>
                                 </div>
                                 <div className="links">
                                     <span>
-                                        <i className="fa-solid fa-phone"></i>
-                                        <p>+996556909890</p>
+                                        <i className="fa-solid fa-phone" onMouseEnter={toggleMessage} onMouseLeave={toggleMessage}></i>
+                                        <p className="message">+996556909890</p>
                                     </span>
 
                                 </div>
                                 <div className="links">
                                     <span>
-                                        <i className="fa-solid fa-envelope"></i>
-                                        <p>contact@gmail.com</p>
+                                        <i className="fa-solid fa-envelope" onMouseEnter={toggleMessage} onMouseLeave={toggleMessage}></i>
+                                        <p className="message">contact@gmail.com</p>
                                     </span>
                                 </div>
                             </div>

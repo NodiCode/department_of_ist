@@ -1,4 +1,7 @@
-.navbar_content{
+.port1{
+    margin-top:-100px;
+}
+.pnavbar_content{
     display:flex;
     justify-content: space-between;
     border-bottom:5px solid #8338EC;
@@ -33,12 +36,12 @@
 
 .left_side{
     margin:20px 0px;
-    background-image: url(../images/port1.JPG);
+    background-image: url(https://i.ibb.co/HnKrShR/port1.jpg);
     background-repeat: none;
     background-position: center;
     background-size: cover;
-    height:667px;
-    width:500px;
+    height:500px;
+    width:375px;
 }
 
 .right_side{
@@ -87,4 +90,88 @@
 
 .icons a:hover{
     color:#a473e7;
+}
+
+
+@media (max-width:820px) {
+    .pnavbar_content{
+        width:800px;
+        display:flex;
+        justify-content: space-evenly;
+        border-bottom:5px solid #8338EC;
+        height:80px;
+        /* align-items: center; */
+        font-size:20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin-bottom:30px;
+    }
+    .links li{
+        width:100px;
+    }
+
+    .links ul{
+        padding-top:40px;
+        display: flex;
+        justify-content: space-evenly;
+        padding:10px;
+
+        
+    }
+    .name{
+        font-size:30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+
+    }
+    .sec1_part1{
+        display:flex;
+        flex-direction: column;
+
+        width:820px
+    }
+
+}
+
+@media (max-width:375px) {
+    .pnavbar_content{ 
+        width:375px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom:5px solid #8338EC;
+        height:200px;
+        /* align-items: center; */
+        font-size:20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin-bottom:30px;
+    }
+    .links li{
+        width:100px;
+    }
+
+    .links ul{
+        padding-top:40px;
+        display: flex;
+        justify-content: space-evenly;
+        padding:10px;
+        width:360px;
+        margin-left:-140px;
+
+        
+    }
+    .name{
+        font-size:30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+
+    }
+    .sec1_part1{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:375px;
+    }
+   
 }

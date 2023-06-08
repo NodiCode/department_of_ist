@@ -62,7 +62,8 @@
     justify-content: space-between;
     align-items: center;
 }
-i{
+
+i {
     color: white;
 }
 
@@ -92,12 +93,13 @@ i{
     }
 
 }
+
 @media (max-width:375px) {
     .header_content {
         display: flex;
         flex-direction: column;
         height: 300px;
-        width:375px;
+        width: 375px;
         justify-content: space-around;
     }
 
@@ -111,14 +113,27 @@ i{
     }
 
     .right {
-        width:375px;
+        width: 375px;
         display: flex;
         flex-direction: column;
         color: white;
         justify-content: space-between;
     }
-    .links p{
+
+    .links p {
         display: none;
     }
 
+
+    .message {
+        background-color: #000;
+        color: #fff;
+        padding: 5px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .links:hover .message {
+        opacity: 1;
+    }
 }

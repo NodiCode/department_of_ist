@@ -118,3 +118,35 @@
     height:80px;
 }
 
+@media (max-width:400px) {
+    #map{
+        display:flex;
+        flex-direction: row;
+        height:auto;
+    }
+    .map_content{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    .part1{
+        width:100%;
+        /* padding:20px; */
+        /* border:1px solid red; */
+        /* position:absolute; */
+    }
+    
+    .part2{
+        width:100%;
+        height:900px;
+        background-image: url("https://lh3.googleusercontent.com/p/AF1QipNekB2vsmsI_VVDm3mEFr5dWOjWZjX8wUvptVkB=s1360-w1360-h1020");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border:1px solid black;
+    
+        
+    }
+
+}

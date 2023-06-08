@@ -8,4 +8,16 @@
     display:grid;
     grid-template-columns: 70% 30%;
 }
+@media (max-width:920px) {
+    .home{
+        width:920px;
+        
+
+    }
+    .pagesetup{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 

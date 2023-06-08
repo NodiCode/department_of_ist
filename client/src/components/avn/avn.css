@@ -1,0 +1,23 @@
+.avn_container{
+    width:400px;
+    height:420px;
+}
+.avnImage {
+    width:400px;
+    height:200px;
+    background-image: url("https://itf.kumu.kg/wp-content/uploads/2022/11/LOGO-300x165-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.freshmanImage {
+    width:400px;
+    height:200px;
+    background-image: url("https://priem.kumu.kg/wp-content/uploads/2023/05/maxresdefault-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+}

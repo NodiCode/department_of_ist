@@ -5,9 +5,9 @@ import './port1.css'
 
 const Port1 = () => {
     return (
-        <div>
+        <div className="port1">
             <div className="container">
-            <div className="navbar_content">
+            <div className="pnavbar_content">
                 <div className="name">
                     Өмурбекова Гулзат
                 </div>
@@ -36,9 +36,9 @@ const Port1 = () => {
                         <p>Насирдин Исанов, 79 к2, Ош, Кыргызстан</p>
                     </div>
                     <div className="icons">
-                        <a href="https://www.facebook.com/people/%D0%93%D1%83%D0%BB%D0%B7%D0%B0%D1%82-%D0%9E%D0%BC%D1%83%D1%80%D0%B1%D0%B5%D0%BA%D0%BE%D0%B2%D0%B0/100007586495814/?locale=ru_RU"><i class="fa-brands fa-facebook fa-4x"></i></a>
-                        <a href="mailto: imadinova111@gmail.com"><i class="fa-brands fa-at fa-4x"></i></a>
-                        <a href="https://instagram.com/gulzat3809?igshid=MDM4ZDc5MmU="><i class="fa-brands fa-instagram fa-4x"></i></a>
+                        <a href="https://www.facebook.com/people/%D0%93%D1%83%D0%BB%D0%B7%D0%B0%D1%82-%D0%9E%D0%BC%D1%83%D1%80%D0%B1%D0%B5%D0%BA%D0%BE%D0%B2%D0%B0/100007586495814/?locale=ru_RU"><i className="fa-brands fa-facebook fa-4x"></i></a>
+                        <a href="mailto: imadinova111@gmail.com"><i className="fa-brands fa-at fa-4x"></i></a>
+                        <a href="https://instagram.com/gulzat3809?igshid=MDM4ZDc5MmU="><i className="fa-brands fa-instagram fa-4x"></i></a>
                     </div>
                 </div>
             </div>

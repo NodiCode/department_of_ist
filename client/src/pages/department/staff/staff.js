@@ -38,7 +38,7 @@ const Staff = () => {
                             <Link to="https://rasul.my.canva.site/" className={styles.ptl}>
                                 <div className={styles.card}>
                                     <div className={styles.img1}>
-                                        <img alt="" src='https://i.ibb.co/vDKQ8Ly/IMG-4321.png' ></img>
+                                        <img alt="" src='https://i.ibb.co/vDKQ8Ly/IMG-4321.png'></img>
                                     </div>
                                     <div className={styles.info}>
                                         <p className={`${styles.name} ${styles.reddy}`}>Камаридинов Расул  Бакытбекович</p>
@@ -54,7 +54,7 @@ const Staff = () => {
                                         <img alt="" src='' ></img>
                                     </div>
                                     <div className={styles.info}>
-                                        <p className={`${styles.name} ${styles.reddy}`}>Өмүралы уулу Токтосун</p>
+                                        <p className={`${styles.name} ${styles.reddy}` }>Өмүралы уулу Токтосун</p>
                                         <p className={styles.position}>Окутуучу</p>
                                         <p className={`${styles.email} ${styles.reddy}`}></p>
                                         <p className={styles.number}><span>+996709834391</span></p>
@@ -90,7 +90,7 @@ const Staff = () => {
                             <Link to="/teacher7" className={styles.ptl}>
                                 <div className={styles.card}>
                                     <div className={styles.img1}>
-                                        <img alt="" src='https://i.ibb.co/N2yj5xf/IMG-4376.jpg' ></img>
+                                        <img alt="" src='https://i.ibb.co/N2yj5xf/IMG-4376.jpg'></img>
                                     </div>
                                     <div className={styles.info}>
                                         <p className={`${styles.name} ${styles.reddy}`}>Токонова Тамара Сулаймановна</p>
