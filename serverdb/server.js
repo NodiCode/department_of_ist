@@ -12,7 +12,7 @@ app.use(cors());
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://admin:admin@cluster33.7wrlajs.mongodb.net/ist', {
+mongoose.connect('mongodb+srv://admin:<password>@cluster33.7wrlajs.mongodb.net/ist', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
