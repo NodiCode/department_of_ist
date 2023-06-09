@@ -121,13 +121,15 @@
 @media (max-width:400px) {
     #map{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         height:auto;
     }
     .map_content{
         display:flex;
         justify-content: space-between;
         flex-direction: column;
+        width:400px;
+
         
     }
     .part1{
@@ -145,8 +147,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         border:1px solid black;
-    
-        
     }
 
 }
